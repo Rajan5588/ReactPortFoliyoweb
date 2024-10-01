@@ -1,0 +1,30 @@
+#root {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+
+button{
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    border: none;
+    border-radius: 34px;
+    box-shadow: 0 20px 24px 3px rgba(251, 161, 40, .42);
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 26px;
+    cursor: pointer;
+}
+button:hover{
+  background: linear-gradient(180deg, #45d80b 26.71%, #a6e005 99.36%);
+}
+
+.darkMode{
+
+  background-color: black;
+  color: white;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+.portfolio {
+     height: 50vh;
+     
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+  
+     justify-content: center;
+ }
+
+ .portfolio span:first-of-type {
+     color: black;
+     font-size: 2rem;
+     font-weight: 700;
+ }
+
+ .portfolio span:nth-of-type(2) {
+     color: #fca61f;
+     font-size: 2.5rem;
+     font-weight: 700;
+ }

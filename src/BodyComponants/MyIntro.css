@@ -1,0 +1,184 @@
+
+.IntroBody{
+     margin: 2rem ;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.Hy{
+     color: rgb(235, 91, 8);
+     font-size: 3rem;
+     font-weight: 700;
+}
+
+.Rajan{ 
+     
+     color: orange;
+font-size: 3rem;
+font-weight: 700;
+}
+
+.Myintro{
+     margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 2rem;
+
+}
+.HireButton{
+      
+     background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    border: none;
+    border-radius: 34px;
+    box-shadow: 0 20px 24px 3px rgba(251, 161, 40, .42);
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 26px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.ImgDiv{
+     margin-top: 2rem;
+     margin-right: 10rem;
+height: 400px;
+width: 400px;
+border-radius: 50%;
+text-align: center;
+}
+
+
+.ImgDiv img{
+     height: 400px;
+width: 400px;
+border-radius: 50%;
+object-fit: cover;
+background-position: center;
+}
+.IconNetwork{
+     display: flex;
+    gap: 2rem;
+    font-weight: 400;
+    font-size: 60px;
+    color: #fb982f;
+}
+.IconNetwork a{
+
+     text-decoration: none;
+     color: #fb982f;
+}
+.award{
+     margin-top: 1rem;
+     width: 13rem;
+     align-items: center;
+    background: #e748d2a6;
+    color: rgb(190, 223, 73);
+    border-radius: 17px;
+    display: flex;
+    height: 4.5rem;
+    justify-content: space-around;
+    padding: 0 17px 0 0;
+}
+
+.ImgDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.Bilike{
+     font-size: 2rem;
+     color: chartreuse;
+}
+
+.awardauto{
+     transform: translateX(-150px);
+     transition: all 3s;
+     margin-top: 1rem;
+     width: 13rem;
+     align-items: center;
+    background: #e748d2a6;
+    color: rgb(35, 80, 82);
+    border-radius: 17px;
+    display: flex;
+    height: 4.5rem;
+    justify-content: space-around;
+    padding: 0 17px 0 0;
+}
+
+.body1{
+     margin: 2rem;
+}
+.intro2{
+     margin-top: 14rem;
+   max-width: 30%;
+ 
+}
+.cv{
+     margin-left: 5rem;
+     margin-top: 2rem;
+}
+.myIntro2{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+}
+.card{
+     margin-bottom: 1rem;
+     word-wrap: break-word;
+     background-clip: border-box;
+     background-color: #fff;
+     border: 1px solid rgba(0, 0, 0, .125);
+     border-radius: .45rem;
+     display: flex;
+     flex-direction: column;
+     min-width: 0;
+     position: relative;
+     align-items: center;
+     background: hsla(0, 0%, 100%, .26);
+     border: 3px solid #fca61f;
+     border-radius: 20px;
+     box-shadow: 0 19px 60px rgb(0 0 0 / 8%);
+     gap: 0.4rem;
+     height: 3rem;
+     padding: 0 26px 2rem;
+     position: absolute;
+     text-align: center;
+     width: 14rem;
+}
+.card img{
+     height: 80px;
+     width: 80px;
+     overflow-clip-margin: content-box;
+     overflow: hidden;
+ }
+
+ .CardSection{
+     margin-top: 16rem;
+}
+@media  (max-width:1200px){
+     .c3{
+          margin-top: 10rem;
+     }
+}
+@media  (max-width:1200px){
+     .CardSection{
+         flex-direction: column;
+     }
+     .c2{
+          visibility: hidden;
+     }
+     .c3{
+          margin-bottom: 2rem;
+          transform: translateX(200px);
+     }
+     .IntroBody{
+          flex-wrap: wrap-reverse;
+
+     }
+     .myIntro2{
+          flex-wrap: wrap;
+     }
+     
+
+   }

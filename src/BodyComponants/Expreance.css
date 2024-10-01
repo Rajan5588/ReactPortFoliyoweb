@@ -1,0 +1,36 @@
+.experience {
+     color:#242d49;
+     gap: 5rem;
+     height: 30vh;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 8rem;
+ }
+ .achievement, .experience {
+    display: flex;
+     align-items: center;
+ }
+ .achievement span:nth-of-type(2) {
+    color:rgb(9, 42, 134);
+    font-size: 20px;
+
+}
+ .achievement{
+    flex-direction: column;
+   color:  #334fa5;
+
+ }
+ .circle {
+    align-items: center;
+    background: #e6ecec;
+    border-radius: 100%;
+    border: 3px solid rgb(71, 192, 71);
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 4rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 4rem;
+}
